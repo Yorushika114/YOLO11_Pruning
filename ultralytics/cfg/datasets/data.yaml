@@ -1,0 +1,23 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\Users\23223\Desktop\总和数据集 # dataset root dir
+train: C:\Users\23223\Desktop\总和数据集\images\train # train images (relative to 'path') 128 images
+val: C:\Users\23223\Desktop\总和数据集\val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: Curculionidae
+  1: Delphacidae
+  2: Cicadellidae
+  3: Phlaeothripidae
+  4: Cecidomyiidae
+  5: Hesperiidae
+  6: Crambidae
+  7: Chloropidae
+  8: Ephydridae
+  9: Noctuidae
+  10: Thripidae
+  11: Bacteria_Leaf_Blight
+  12: Brown_Spot
+  13: Leaf_smut
+

@@ -1,0 +1,28 @@
+train: /gemini/data-1/datasets_v2/images/train
+val: /gemini/data-1/datasets_v2/images/val
+test: 
+
+nc: 15
+names: 
+    0: Curculionidae
+    1: Delphacidae
+    2: Cicadellidae
+    3: Phlaeothripidae
+    4: Cecidomyiidae
+    5: Hesperiidae
+    6: Crambidae
+    7: Chloropidae
+    8: Ephydridae
+    9: Noctuidae
+    10: Thripidae
+    11: BacteriaLeafBlight
+    12: BrownSpot
+    13: LeafSmut
+    14: LeafBlast
+
+roboflow:
+  workspace: dreamydaisy-cdagn
+  project: rice-dyl9n
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dreamydaisy-cdagn/rice-dyl9n/dataset/4

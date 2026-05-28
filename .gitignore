@@ -1,0 +1,13 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
